@@ -33,6 +33,7 @@ def init_plot(xy_min, xy_max):
     Z = np.array(Z)
 
     plt.ion()
+    plt.title("PSO")
     fig = plt.figure()
     axes = Axes3D(fig)
 
